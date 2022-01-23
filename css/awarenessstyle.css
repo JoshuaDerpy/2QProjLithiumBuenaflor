@@ -92,7 +92,11 @@ body {
 
 #awareness-articles {
 	margin: auto;
+	margin-top: 3vh;
 	width: 92vw;
+	display: flex;
+	flex-direction: column;
+	gap: 5vh
 }
 
 #awareness-articles p {
@@ -100,7 +104,35 @@ body {
 	margin-bottom: 10px;
 	width: inherit;
 }
+#awareness-articles p, h3 {
+	padding: 0.5vw 1vw;
+}
 
+#StigmaAPWMI {
+	background-color: rgba(190, 213, 88, 0.397);
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+#HEOStigma {
+	background-color: rgba(119, 191, 163, 0.3);
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+#AddressingStigma {
+	background-color: rgba(222, 161, 222, 0.3);
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+#RMHAwareness {
+	background-color: rgba(223, 252, 12, 0.3);
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ccc;
+}
+#HTBIWRMHAwareness {
+	background-color: rgba(214, 162, 78, 0.3);
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #ccc;
+}
 button {
 	background-color: #67b99a;
 	border: double 3px #036666;
@@ -233,4 +265,11 @@ h3.accordion:hover {
 	background-color: beige;
 	color: grey;
 	text-shadow: 1px 1px 1px white;
+}
+
+@media  screen and (max-width: 768px) {
+	#awareness-articles p, h3{
+		margin: 2vw;
+	}
+	
 }
