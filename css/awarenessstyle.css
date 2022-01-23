@@ -25,17 +25,17 @@ body {
 
 #content h1 {
 	text-align: left;
-	margin: 1vw 1.5vh;
+	margin: 1vw;
 	font-size: 2.5em;
 	font-family: "Quicksand";
-	padding: 5px;
 	color: #036666;
 	text-shadow: 0.2vw 0.2vw 0.2vw #99e2b4;
 }
 
 #content h2 {
 	text-align: left;
-	margin: 1vw 1.5vh;
+	margin-top: 0.5vw;
+	padding: 0 1.5vw;	
 	font-size: 28px;
 	font-family: "Quicksand";
 	padding: 5px;
@@ -46,14 +46,15 @@ body {
 #content h3 {
 	font-family: "Quicksand";
 	font-size: 28px;
-	padding: 1vw 1.5vw;
+	margin: 1vw;
 	color: #036666;
 	text-shadow: 0.2vw 0.2vw 0.2vw #99e2b4;
 }
 
 #content p {
 	text-align: left;
-	margin: 1vw 1.5vh;
+	margin-top: 0.5vw;
+	padding: 0 1.5vw;	
 	font-size: 19px;
 	font-family: "Quicksand";
 	padding: 5px;
@@ -74,8 +75,8 @@ body {
 
 #image-slider-container p {
 	text-align: left;
-	margin: 1vw 1.5vh;
-	font-size: 16px;
+	margin-top: 0.5vw;
+	padding: 0 1.5vw;
 	font-family: "Quicksand";
 	padding: 5px;
 	color: whitesmoke;
@@ -90,12 +91,14 @@ body {
 }
 
 #awareness-articles {
-	margin-left: 1vw;
-	width: 93vw;
+	margin: auto;
+	width: 92vw;
 }
 
 #awareness-articles p {
 	text-align: justify;
+	margin-bottom: 10px;
+	width: inherit;
 }
 
 button {
@@ -104,6 +107,7 @@ button {
 	color: white;
 	font-family: 'Quicksand';
 	padding: 1vw;
+	font-size: 1.5rem;
 	cursor: pointer;
 	border-radius: 5px;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);

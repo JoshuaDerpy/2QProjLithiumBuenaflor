@@ -215,7 +215,7 @@
 	  opacity: 1;
   }
 
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:911px) {
 	#content h1 {
 		text-align: left;
 		font-size: 30px;
@@ -291,16 +291,30 @@
 
   @media screen and (max-width:628px) {
 	.expandMoreContent {
-		height: 6em;
+		height: 4em;
 	}
   }
-  @media screen and (max-width:420px) {
+  @media screen and (max-width:550px) {
+	#sh-content {
+		flex-direction: column;
+		width: 100%;
+	}
+	.sh-articles{
+		width: 100%;
+	}
+	.card {
+		width: 95%;
+		margin: auto;
+	}
+	.sh-info {
+		width: inherit;
+	}
 	.expandMoreContent {
-		height: 8em;
+		height: 4em;
 	}
   @media screen and (max-width:357px) {
 	.expandMoreContent {
-		height: 9em;
+		height: 6em;
 	}
   }
 }
