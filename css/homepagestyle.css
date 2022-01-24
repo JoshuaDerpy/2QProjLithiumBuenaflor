@@ -392,32 +392,10 @@ button:hover::after {
 		margin: auto;
 		margin-top: 10vw;
 		width: 85vw;
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
-		grid-template-areas: "wpimgsmh" "wpdescmh" "wpimgsaw" "wpdescaw" "wpimgssh" "wpdescsh";
-		grid-gap: 1%;
-	}
-	#wpimgsmh {
-		grid-area: wpimgsmh;
-		text-align: center;
-	}
-	#wpdescmh {
-		grid-area: wpdescmh;
-	}
-	#wpimgssh {
-		grid-area: wpimgssh;
-		text-align: center;
-	}
-	#wpdescsh {
-		grid-area: wpdescsh;
-	}
-	#wpimgsaw {
-		grid-area: wpimgsaw;
-		text-align: center;
-	}
-	#wpdescaw {
-		grid-area: wpdescaw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
 	}
 	.webpages img {
 		width: 300px;
