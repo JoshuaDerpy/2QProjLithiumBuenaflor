@@ -294,8 +294,21 @@ button:hover::after {
 	border: none;
 	margin: -1px 0;
 }
-
+@media screen and (max-width: 460px) {
+	div#title {
+		margin-top: 1.2rem;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: left;
+		flex-direction: column;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
 @media only screen and (max-width:768px) {
+	#content {
+		height: fit-content;
+	}
 	.head {
 		height: 30vh;
 	}
@@ -305,11 +318,11 @@ button:hover::after {
 		margin-bottom: auto;
 	}
 	div#title {
-		margin-top: 50px;
+		margin-top: 1.2rem;
 	}
 	#title h1 {
 		font-size: 3rem;
-		margin: auto;
+		margin: 0px;
 		color: white;
 		font-family: "Quicksand";
 		font-weight: bold;
@@ -324,7 +337,8 @@ button:hover::after {
 	#title button {
 		font-family: 'Quicksand';
 		font-size: 1rem;
-		width: 14vw;
+		height: fit-content;
+		width: fit-content;
 	}
 	.aspect {
 		width: 90vw;
